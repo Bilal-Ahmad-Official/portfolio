@@ -1,6 +1,6 @@
-# ⚡ Shan — Creative Developer Portfolio
+# ⚡ Bilal — Creative Developer Portfolio
 
-[![Portfolio Banner](images/shan-main-portrait.jpg?v=3)](http://localhost:3000/)
+[![Portfolio Banner](images/Bilal.png)](http://localhost:3000/)
 
 A modern, high-performance, award-grade editorial developer portfolio built with HTML5, Vanilla CSS3, JavaScript (ES6+), **GSAP 3**, and **Locomotive Scroll 4**. Designed with minimalist luxury aesthetics, interactive tilt elements, full-screen lightbox modal viewers, and 60fps smooth scroll animations.
 
