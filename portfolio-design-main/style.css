@@ -122,7 +122,7 @@ nav ul li {
 nav a {
     position: relative;
     text-decoration: none;
-    color: var(--gray);
+    color: #00000094;
     font-family: Fjalla one, sans-serif;
     font-weight: 100;
     text-transform: uppercase;
@@ -471,7 +471,7 @@ nav img {
 
 .highlight-item:hover {
     border-color: var(--black);
-    transform: translateX(6px);
+    transform: scale(0.98);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
 
@@ -482,6 +482,10 @@ nav img {
     padding: 0.8vw;
     border-radius: 12px;
     line-height: 1;
+    width: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .highlight-item h4 {
@@ -652,8 +656,8 @@ nav img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    height: 150%;
-    width: 35%;
+    height: 337px;
+    width: 50%;
     object-fit: cover;
     opacity: 0;
     pointer-events: none;
@@ -2586,4 +2590,18 @@ nav img {
 
 .cert-modal-close:hover {
     color: var(--gray);
+}
+
+nav.navbar.desktop {
+    backdrop-filter: blur(10px);
+    background: #ffffff87;
+}
+
+.inner-services {
+    display: flex;
+    column-gap: 20px;
+}
+
+i.fa-brands.fa-shopify {
+    width: 54px;
 }
