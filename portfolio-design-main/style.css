@@ -998,6 +998,62 @@ nav img {
     }
 }
 
+@media (min-width: 320px) and (max-width: 768px){
+    .profile-img{
+        position: absolute;
+        top: 130px;
+        left: 73%;
+        transform: translateX(-50%);
+        width: auto;
+        z-index: 5;
+    }
+
+    .id-card{
+        width: 110px;
+        height: 140px;
+        margin-top: 55px;
+    }
+
+    .profile-img img {
+        width: 100% !important;
+        height: 100% !important;
+        border-radius: 12px !important;
+        object-fit: cover !important;
+        border: none !important;
+    }
+
+    .rope {
+        height: 55px;
+    }
+
+    .id-card::after {
+        width: 20px;
+        height: 20px;
+    }
+
+    .id-card::before{
+        display: none;
+    }
+
+    .elem1 h1 {
+        font-size: 8vw !important;
+        line-height: inherit !important;
+    }
+
+    #landing-page{
+        height: 90vh !important;
+    }
+
+    #landing-page .profile{
+        position: relative;
+    }
+
+    .inner-services{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}
+
 /* CRAFT */
 
 #craft {
