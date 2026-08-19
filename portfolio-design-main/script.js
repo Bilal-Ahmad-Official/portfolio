@@ -75,7 +75,7 @@ const scaleCircle = () => {
             gsap.to("#circle", {
                 mixBlendMode: "normal",
                 backgroundColor: "#1a1818",
-                scale: 13,
+                scale: 1.5,
                 ease: Expo
             })
         })

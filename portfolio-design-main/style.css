@@ -226,7 +226,7 @@ nav img {
     width: 100%;
     min-height: 32vw;
     display: flex;
-    align-items:center;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 3vw;
 }
@@ -2604,4 +2604,8 @@ nav.navbar.desktop {
 
 i.fa-brands.fa-shopify {
     width: 54px;
+}
+
+.bw-card.card-white .bw-tag i{
+    width: fit-content;
 }
