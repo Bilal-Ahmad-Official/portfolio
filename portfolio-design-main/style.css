@@ -137,6 +137,7 @@ nav .menu-cv {
     background-color: var(--white);
     border: 1.5px solid var(--gray);
     transition: all linear 0.2s;
+    border-radius: 50px;
 }
 
 nav .menu-cv:hover {
