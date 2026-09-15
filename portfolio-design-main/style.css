@@ -2666,3 +2666,88 @@ i.fa-brands.fa-shopify {
 .bw-card.card-white .bw-tag i{
     width: fit-content;
 }
+
+/* ============================================================
+   MULTI-PAGE ADDITIONS — do not remove anything above this line
+   ============================================================ */
+
+/* Active page link in nav */
+nav a.active {
+    color: var(--black);
+}
+
+/* Shared footer for home / about / projects / skills pages */
+.page-footer {
+    width: 100%;
+    padding: 3vw 6vw;
+    background-color: var(--black);
+    border-top: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-footer p {
+    color: var(--gray);
+    font-size: 1.2vw;
+    font-family: Gilroy, sans-serif;
+}
+
+.page-footer p > img {
+    width: 1.2vw;
+    margin: 0 5px;
+}
+
+.page-footer .back-top {
+    position: relative;
+    color: var(--white);
+    cursor: pointer;
+}
+
+/* Home page CTA buttons under the statement */
+.home-cta-row {
+    margin-top: 3.5vw;
+}
+
+/* Statement section flows naturally on inner pages too */
+#about {
+    height: auto;
+    min-height: 100vh;
+}
+
+/* Breathing room under the fixed nav on the projects page */
+#projects > h1 {
+    margin-top: 4vw;
+}
+
+/* Narrow desktop: keep 6 nav links from crowding */
+@media (max-width: 1250px) and (min-width: 1051px) {
+    nav a {
+        font-size: 1.15vw;
+    }
+    nav ul li {
+        margin-left: 1.8vw;
+    }
+    nav {
+        padding: 0 4vw;
+    }
+}
+
+@media (max-width: 1050px) {
+    .page-footer {
+        padding: 6vw;
+    }
+    .page-footer p {
+        font-size: 3vw;
+    }
+    .page-footer p > img {
+        width: 3vw;
+        margin: 0 2px;
+    }
+    .page-footer .back-top {
+        display: none;
+    }
+    .home-cta-row {
+        margin-top: 8vw;
+    }
+}
